@@ -11,8 +11,10 @@
     $combined_array = [];
 
     foreach ($user_array as $index => $name) {
-      array_push($combined_array, $name => $pets_array[$index]);
+      $combined_array[$name] = $pets_array[$index];
     }
+
+
 
     print_r($combined_array);
 
@@ -22,9 +24,6 @@
 
   $result = justFunction()
 ?>
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
