@@ -53,5 +53,7 @@
       voluptate quos distinctio commodi numquam neque. Itaque sit autem nulla
       iusto deserunt iste aspernatur voluptas placeat quasi dignissimos labore.
     </p>
+
+    <?php require './footer.php' ?>
   </body>
 </html>

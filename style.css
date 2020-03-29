@@ -1,10 +1,4 @@
-body {
-  padding: 0 500px;
-}
-
-h1 {
-  color: darkblue;
-}
+/* HEADER */
 
 .header-container {
   width: 100%;
@@ -43,4 +37,18 @@ h1 {
 .links a:hover {
   color: white;
   background-color: darkgreen;
+}
+
+/* CONTENT */
+body {
+  padding: 0 500px;
+}
+
+h1 {
+  color: darkblue;
+}
+
+/* FOOTER */
+.footer {
+  color: white;
 }
