@@ -1,0 +1,46 @@
+body {
+  padding: 0 500px;
+}
+
+h1 {
+  color: darkblue;
+}
+
+.header-container {
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.symbol a {
+  height: 100%;
+  padding: 20px;
+  text-decoration: none;
+  color: green;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+}
+
+.links li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links a {
+  height: 100%;
+  padding: 20px;
+  text-decoration: none;
+  color: green;
+}
+
+.links a:hover {
+  color: white;
+  background-color: darkgreen;
+}
